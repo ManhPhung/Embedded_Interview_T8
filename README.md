@@ -7,9 +7,9 @@
 >>> ![image](https://github.com/ManhPhung/Embedded_Interview_T8/assets/141265486/0b753701-24b9-4ae3-bfab-c350b2c7c29f)
   
 >>>Here :
->>>    -- data_type : Type of data that a variable can store.
->>>    -- variable_name : Name of the variable given by the user.
->>>    -- value : value assigned to the variable by the user.
+>>>    + data_type : Type of data that a variable can store.
+>>>    + variable_name : Name of the variable given by the user.
+>>>    + value : value assigned to the variable by the user.
 
 >>>Example :
 
