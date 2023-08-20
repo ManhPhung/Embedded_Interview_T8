@@ -8,10 +8,10 @@
   
 >>>Here :
 >>>    - data_type : Type of data that a variable can store.
-    - variable_name : Name of the variable given by the user.
-    - value : value assigned to the variable by the user.
+>>>    - variable_name : Name of the variable given by the user.
+>>>    - value : value assigned to the variable by the user.
 
-   Example :
+>>>Example :
 
- ![image](https://github.com/ManhPhung/Embedded_Interview_T8/assets/141265486/46458048-918c-43f9-8018-a2a722cc151c)
+>>>![image](https://github.com/ManhPhung/Embedded_Interview_T8/assets/141265486/46458048-918c-43f9-8018-a2a722cc151c)
 
