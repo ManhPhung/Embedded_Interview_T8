@@ -21,8 +21,8 @@
 ### Type of data in C
 
 The data types in C can be classified as follows:
-| Types | Description |
 
+| Types | Description |
 | Primitive Data Types | Primitive data types are the most basic data types that are used for representing simple values such as integers, float, characters, etc. |
 | User Defined Data Types | The user-defined data types are defined by the user himself. |
 | Derived Types | The data types that are derived from the primitive or built-in datatypes are referred to as Derived Data Types. |
