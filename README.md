@@ -28,6 +28,8 @@
 | User Defined Data Types | The user-defined data types are defined by the user himself. |
 | Derived Types | The data types that are derived from the primitive or built-in datatypes are referred to as Derived Data Types. |
 
+- Primitive Data Types :
+
 | Data Type | Size (bytes) | Range | Format Specifier |
 |:---------:|:------------:|:-----:|:----------------:|
 | short int | 2 | -32,768 to 32,767 | %hd |
