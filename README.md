@@ -18,7 +18,7 @@
 	int a = 10; // Create a variable is a that have data type is int and value is 10.
 	float b,c; // Create two variables are a and b that have data type is float and value is uninitialized.
 ```
-### Type of data in C
+### DataTypes in C
 
 - The data types in C can be classified as follows:
 
@@ -48,7 +48,8 @@
 | float | 4 | 1.2E-38 to 3.4E+38 | %f |
 | double | 8 | 1.7E-308 to 1.7E+308 | %lf |
 | long double | 16 | 3.4E-4932 to 1.1E+4932 | %Lf |
-  
+
+
  
 
 
