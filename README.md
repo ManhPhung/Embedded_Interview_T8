@@ -20,7 +20,7 @@
 ```
 ### Type of data in C
 
-The data types in C can be classified as follows:
+- The data types in C can be classified as follows:
 
 | Types | Description |
 |:------:|:--------:|
