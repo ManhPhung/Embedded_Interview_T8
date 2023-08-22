@@ -8,11 +8,10 @@
   
 - C variable Syntax :
 
+```c
       data_type variable_name = value; // defining single variable
       data_type variable_name1, variable_name2; // defining mutilple variable
-
-
-  
+``` 
   Example :
 
 ```c
