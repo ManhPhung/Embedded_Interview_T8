@@ -28,7 +28,9 @@
 | User Defined Data Types | The user-defined data types are defined by the user himself. |
 | Derived Types | The data types that are derived from the primitive or built-in datatypes are referred to as Derived Data Types. |
 
-![image](https://github.com/ManhPhung/Embedded_Interview_T8/assets/141265486/7ce47d5e-648e-4ecf-a98c-20f5f4d735f4)
+
+![image](https://github.com/ManhPhung/Embedded_Interview_T8/assets/141265486/32310e46-effd-4824-b992-171777c9b5fe)
+
 
 
 - Primitive Data Types :
