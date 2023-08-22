@@ -13,56 +13,61 @@ typedef enum
     VONG_TAY    = 1 << 5,   //00100000
     GIAY        = 1 << 6,   //01000000
     TUI         = 1 << 7,   //10000000
-} DO_DUNG_CA_NHAN;
+} ITEM;
 
 void COMPARE(int check)
 {
     switch (check)
     {
     case AO:
-        printf("        AO\n");
+        printf("        AO      ");
         break;
     case QUAN:
-        printf("        QUAN\n");
+        printf("        QUAN    ");
         break;
     case VAY:
-        printf("        VAY\n");
+        printf("        VAY     ");
         break;
     case DAM:
-        printf("        DAM\n");
+        printf("        DAM     ");
         break;
     case NHAN:
-        printf("        NHAN\n");
+        printf("        NHAN    ");
         break;
     case VONG_TAY:
-        printf("        VONG TAY\n");
+        printf("        VONG TAY");
         break;
     case GIAY:
-        printf("        GIAY\n");
+        printf("        GIAY    ");
         break;
     case TUI:
-        printf("        TUI\n");
+        printf("        TUI     ");
         break;
     default:
         break;
     }
 }
-void ADD(uint8_t *gio_hang, DO_DUNG_CA_NHAN do_dung_da_them)
+void ADD(uint8_t *gio_hang, ITEM do_dung_da_them)
 {
     *gio_hang |= do_dung_da_them;
 }
 
-void CHECK(uint8_t *gio_hang, DO_DUNG_CA_NHAN do_dung_can_check)
+void CHECK(uint8_t *gio_hang, ITEM do_dung_can_check)
 {   
     int check = *gio_hang;
     check &= do_dung_can_check;
-    printf("Trong gio hang co : \n");
-
+    printf("Kiem tra : \n");
     for(int i=0; i<8;i++)
-    {
-        int temp = check;
+    {   
+        int temp = do_dung_can_check;
         temp &= (1<<i);
         COMPARE(temp);
+        if(temp != 0)
+        {
+            temp &= *gio_hang;
+            (temp==0)   ?   printf("   : chua co\n")
+                        :   printf("   : da co\n");            
+        }      
     }
 }
 
