@@ -8,17 +8,16 @@
   
 - C variable Syntax :
 
-``c
       data_type variable_name = value; // defining single variable
       data_type variable_name1, variable_name2; // defining mutilple variable
-``
+
 
   
   Example :
 
-```c
+``c
       int a = 10; // Create a variable is a that have data type is int and value is 10.
       float b,c; // Create two variables are a and b that have data type is float and value is uninitialized.
-```
+``
   
 
