@@ -1,6 +1,8 @@
 # Embedded_Interview_T8
 ## C PROGRAMING LANGUAGE
+
 <details>summary>BASIC C </summary>
+	
 ### Variable
 - A variable in C is a memory location with some name that helps store some form of data and retrieves it when required. We can store different types of data in the variable and reuse the same variable for storing some other data any of times.
   
