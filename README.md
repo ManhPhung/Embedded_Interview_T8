@@ -1,6 +1,7 @@
 # Embedded_Interview_T8
 ## C PROGRAMING LANGUAGE
 <details>	
+	
 <summary>BASIC C </summary>
 	
 ### Variable
@@ -106,7 +107,7 @@
 <details>  
 
 <details>	
-<summary>BASIC C </summary>
+<summary>MACRO </summary>
 
 
 	
