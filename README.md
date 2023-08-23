@@ -121,7 +121,17 @@
 
 ## C++ PROGRAMING LANGUAGE
 
+<details><summary>INTRODURING </summary>
+- C++ is a general-purpose programming language that was developed as an enhancement of the C language to include object-oriented paradigm. It is an imperative and a compiled language.
+	
+</details>
+
 <details><summary>CLASS </summary>
+
+-Class in C++ is the building block that leads to Object-Oriented programming. It is a user-defined data type, which holds its own data members and member functions, which can be accessed and used by creating an instance of that class. A C++ class is like a blueprint for an object.
+	- A Class is a user-defined data type that has data members and member functions.
+	- Data members are the data variables and member functions are the functions used to manipulate these variables together, these data members and member functions define the properties and behavior of the objects in a Class.
+	- In the above example of class Car, the data member will be speed limit, mileage, etc, and member functions can be applying brakes, increasing speed, etc.
 	
 </details>
 
