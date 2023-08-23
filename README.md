@@ -1,7 +1,6 @@
 # Embedded_Interview_T8
 ## C PROGRAMING LANGUAGE
-<details><summary>BASIC C </summary>
-
+</details>summary>BASIC C </summary>
 ### Variable
 - A variable in C is a memory location with some name that helps store some form of data and retrieves it when required. We can store different types of data in the variable and reuse the same variable for storing some other data any of times.
   
@@ -48,11 +47,13 @@
 	| unsigned char | 1 | 0 to 255 | %c | 
 	| float | 4 | 1.2E-38 to 3.4E+38 | %f |
 	| double | 8 | 1.7E-308 to 1.7E+308 | %lf |
-	| long double | 16 | 3.4E-4932 to 1.1E+4932 | %Lf |<details>
+	| long double | 16 | 3.4E-4932 to 1.1E+4932 | %Lf |
+<details>
+
+
 	
 <details><summary>BITMASK </summary>
-
-### What is Bitmask
+	### What is Bitmask
 	In computer programming, the process of modifying and utilizing binary representations of numbers or any other data is known as bitmasking
 	The idea for bit masking is based on boolean logic. For those not familiar, boolean logic is the manipulation of 'true' (1) and 'false' (0) through logical operations (that take 0s and 1s as their argument). We are concerned with the following operations:
 
@@ -100,9 +101,9 @@
 	
 	bit = storage & (1 << n);
 	
-	01000010 01001010 AND AND 00001000 00001000 == == 00000000 00001000<details>
-<details>	
-<summary>MACRO </summary>
+	01000010 01001010 AND AND 00001000 00001000 == == 00000000 00001000
+</details>
+
 
 
 	
