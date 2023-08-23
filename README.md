@@ -121,7 +121,7 @@
 
 ## C++ PROGRAMING LANGUAGE
 
-<details><sumary>CLASS</sumary>
+<details><sumary>CLASS </sumary>
 	
 </details>
 
