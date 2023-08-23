@@ -48,8 +48,7 @@
 	| float | 4 | 1.2E-38 to 3.4E+38 | %f |
 	| double | 8 | 1.7E-308 to 1.7E+308 | %lf |
 	| long double | 16 | 3.4E-4932 to 1.1E+4932 | %Lf |
-<details>
-
+</details>
 
 	
 <details><summary>BITMASK </summary>
