@@ -61,6 +61,40 @@
 	- a XOR b - if one value is 1 and the other value is 0, the final value is 1, otherwise the final value is 0
 
  	Bit masks are often used when setting flags. Flags are values that can be in two states, such as 'on/off' and 'moving/stationary'.
+
+- Setting bit n
+	Setting bit n is as simple as ORing the value of the storage variable with the value 2^n.
+	
+	storage |= 1 << n;
+	
+	As an example, here is the setting of bit 3 where storage is a char (8 bits):
+	
+	01000010 OR 00001000 == 01001010
+	
+	The 2^n logic places the '1' value at the proper bit in the mask itself, allowing access to that same bit in the storage variable.
+
+- Clearing bit n
+	Clearing bit n is the result of ANDing the value of the storage variable with the inverse (NOT) of the value 2^n:
+	
+	storage &= ~(1 << n);
+	
+	Here's the example again:
+	
+	01001010 AND 11110111 == 01000010
+
+- Flipping bit n
+	Flipping bit n is the result of XORing the value of the storage variable with 2^n:
+	
+	storage ^= 1 << n;
+	
+	01000010 01001010 XOR XOR 00001000 00001000 == == 01001010 01000010
+
+- Checking bit n
+	Checking a bit is ANDing the value of 2^n with the bit storage:
+	
+	bit = storage & (1 << n);
+	
+	01000010 01001010 AND AND 00001000 00001000 == == 00000000 00001000
 	
 	 
 
