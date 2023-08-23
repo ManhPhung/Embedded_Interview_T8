@@ -140,14 +140,15 @@
 	![image](https://github.com/ManhPhung/Embedded_Interview_T8/assets/141265486/cb347c61-0435-4045-8385-16f8df3d43a3)
 	Example :
 ```c++
-class SinhVien
+class SinhVien					// Declare a class that has name SinhVien
 {
-	Private :
-		string ID ; 
+	Private :				// Member variables ID , Name , age class have access specifier Private
+		string ID ; 			
 		string Name ;
 		unsigned int Age ;
 		string Class ;
-	Public :
+	Public :				// Member Function get...(), set...() have access specifier Public
+		string ID ; 			
 		setID();
 		setName();
 		setAge();
@@ -158,7 +159,11 @@ class SinhVien
 		getClass();
 }
 ```
-
+### Declaring Objects
+When a class is defined, only the specification for the object is defined; no memory or storage is allocated. To use the data and access functions defined in the class, you need to create objects.
+```c++
+SinhVien sv ;
+```
 </details>
 
 	 
