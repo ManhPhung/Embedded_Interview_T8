@@ -54,7 +54,7 @@
 
 	
 <details><summary>BITMASK </summary>
-	### What is Bitmask
+
 	In computer programming, the process of modifying and utilizing binary representations of numbers or any other data is known as bitmasking
 	The idea for bit masking is based on boolean logic. For those not familiar, boolean logic is the manipulation of 'true' (1) and 'false' (0) through logical operations (that take 0s and 1s as their argument). We are concerned with the following operations:
 
@@ -66,7 +66,7 @@
  	Bit masks are often used when setting flags. Flags are values that can be in two states, such as 'on/off' and 'moving/stationary'.
   
 
-- Setting bit n
+###Setting bit n
 
 	Setting bit n is as simple as ORing the value of the storage variable with the value 2^n.
 	
@@ -78,7 +78,7 @@
 	
 	The 2^n logic places the '1' value at the proper bit in the mask itself, allowing access to that same bit in the storage variable.
 
-- Clearing bit n
+###Clearing bit n
 
 	Clearing bit n is the result of ANDing the value of the storage variable with the inverse (NOT) of the value 2^n:
 	
@@ -88,7 +88,7 @@
 	
 	01001010 AND 11110111 == 01000010
 
-- Flipping bit n
+###Flipping bit n
 
 	Flipping bit n is the result of XORing the value of the storage variable with 2^n:
 	
@@ -96,7 +96,7 @@
 	
 	01000010 01001010 XOR XOR 00001000 00001000 == == 01001010 01000010
 
-- Checking bit n
+###Checking bit n
 
 	Checking a bit is ANDing the value of 2^n with the bit storage:
 	
