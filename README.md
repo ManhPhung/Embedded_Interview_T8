@@ -51,10 +51,9 @@
 | double | 8 | 1.7E-308 to 1.7E+308 | %lf |
 | long double | 16 | 3.4E-4932 to 1.1E+4932 | %Lf |
 
-<details>
 	
 <details>	
-<summary>Bitmask </summary>
+<summary>BITMASK </summary>
 	In computer programming, the process of modifying and utilizing binary representations of numbers or any other data is known as bitmasking
 	The idea for bit masking is based on boolean logic. For those not familiar, boolean logic is the manipulation of 'true' (1) and 'false' (0) through logical operations (that take 0s and 1s as their argument). We are concerned with the following operations:
 
