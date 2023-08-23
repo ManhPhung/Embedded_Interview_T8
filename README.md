@@ -51,6 +51,7 @@
 | double | 8 | 1.7E-308 to 1.7E+308 | %lf |
 | long double | 16 | 3.4E-4932 to 1.1E+4932 | %Lf |
 
+<details>
 	
 <details>	
 <summary>BITMASK </summary>
@@ -102,6 +103,8 @@
 	bit = storage & (1 << n);
 	
 	01000010 01001010 AND AND 00001000 00001000 == == 00000000 00001000
+
+  <details>
 	
 	 
 
