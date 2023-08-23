@@ -55,6 +55,8 @@
 	
 <details><summary>BITMASK </summary>
 
+### What is bitmask in C programing language
+
 	In computer programming, the process of modifying and utilizing binary representations of numbers or any other data is known as bitmasking
 	The idea for bit masking is based on boolean logic. For those not familiar, boolean logic is the manipulation of 'true' (1) and 'false' (0) through logical operations (that take 0s and 1s as their argument). We are concerned with the following operations:
 
