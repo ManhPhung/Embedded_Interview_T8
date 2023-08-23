@@ -160,10 +160,11 @@ class SinhVien					// Declare a class that has name SinhVien
 }
 ```
 ### Declaring Objects
-When a class is defined, only the specification for the object is defined; no memory or storage is allocated. To use the data and access functions defined in the class, you need to create objects.
+- When a class is defined, only the specification for the object is defined; no memory or storage is allocated. To use the data and access functions defined in the class, you need to create objects.
 ```c++
 SinhVien sv1;
 ```
+- Accessing data members and member functions: The data members and member functions of the class can be accessed using the dot(‘.’) operator with the object. For example, if the name of the object is obj and you want to access the member function with the name printName() then you will have to write obj.printName().
 </details>
 
 	 
