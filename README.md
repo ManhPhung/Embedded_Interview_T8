@@ -139,7 +139,7 @@
 - A class is defined in C++ using the keyword class followed by the name of the class. The body of the class is defined inside the curly brackets and terminated by a semicolon at the end.
 	![image](https://github.com/ManhPhung/Embedded_Interview_T8/assets/141265486/cb347c61-0435-4045-8385-16f8df3d43a3)
 	Example :
-```c
+```c++
 class SinhVien
 {
 	Private :
