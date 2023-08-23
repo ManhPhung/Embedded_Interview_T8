@@ -80,6 +80,8 @@ void SHOW(uint8_t *gio_hang)
         int temp = check;
         temp &= (1<<i);
         COMPARE(temp);
+        if(temp!=0) printf(" \n");
+        
     }
 }
 
