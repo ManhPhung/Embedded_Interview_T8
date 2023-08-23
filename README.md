@@ -134,7 +134,31 @@
 	- Data members are the data variables and member functions are the functions used to manipulate these variables together, these data members and member functions define the properties and behavior of the objects in a Class.
 	- In the above example of class Car, the data member will be speed limit, mileage, etc, and member functions can be applying brakes, increasing speed, etc.
 - An Object is an instance of a Class. When a class is defined, no memory is allocated but when it is instantiated (i.e. an object is created) memory is allocated.
-	
+### Defining Class and Declaring Objects
+
+- A class is defined in C++ using the keyword class followed by the name of the class. The body of the class is defined inside the curly brackets and terminated by a semicolon at the end.
+	![image](https://github.com/ManhPhung/Embedded_Interview_T8/assets/141265486/cb347c61-0435-4045-8385-16f8df3d43a3)
+	Example :
+```c
+class SinhVien
+{
+	Private :
+		string ID ; 
+		string Name ;
+		unsigned int Age ;
+		string Class ;
+	Public :
+		setID();
+		setName();
+		setAge();
+		setClass();
+		getID();
+		getName();
+		getAge();
+		getClass();
+}
+```
+
 </details>
 
 	 
