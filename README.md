@@ -61,6 +61,7 @@
 	- a XOR b - if one value is 1 and the other value is 0, the final value is 1, otherwise the final value is 0
 
  	Bit masks are often used when setting flags. Flags are values that can be in two states, such as 'on/off' and 'moving/stationary'.
+  
 
 - Setting bit n
 	Setting bit n is as simple as ORing the value of the storage variable with the value 2^n.
