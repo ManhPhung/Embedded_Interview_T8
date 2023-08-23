@@ -122,7 +122,7 @@
 ## C++ PROGRAMING LANGUAGE
 
 <details><summary>INTRODURING </summary>
-	
+
 - C++ is a general-purpose programming language that was developed as an enhancement of the C language to include object-oriented paradigm. It is an imperative and a compiled language.
 	
 </details>
