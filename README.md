@@ -51,6 +51,8 @@
 | double | 8 | 1.7E-308 to 1.7E+308 | %lf |
 | long double | 16 | 3.4E-4932 to 1.1E+4932 | %Lf |
 
+<details>
+	
 <details>	
 <summary>Bitmask </summary>
 	In computer programming, the process of modifying and utilizing binary representations of numbers or any other data is known as bitmasking
