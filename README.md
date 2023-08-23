@@ -76,7 +76,10 @@
 	
 	As an example, here is the setting of bit 3 where storage is a char (8 bits):
 	
-	01000010 OR 00001000 == 01001010
+		01000010 
+ 	OR 	00001000 
+  	----------------
+	 	01001010
 	
 	The 2^n logic places the '1' value at the proper bit in the mask itself, allowing access to that same bit in the storage variable.
 
@@ -88,7 +91,10 @@
 	
 	Here's the example again:
 	
-	01001010 AND 11110111 == 01000010
+		01001010 
+  	AND 	11110111
+   	----------------
+   		01000010
 
 ### Flipping bit n
 
