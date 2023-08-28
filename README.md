@@ -119,9 +119,62 @@
   		00000000 00001000
 </details>
 
+## C++ PROGRAMING LANGUAGE
 
+<details><summary>INTRODURING </summary>
 
+- C++ is a general-purpose programming language that was developed as an enhancement of the C language to include object-oriented paradigm. It is an imperative and a compiled language.
 	
+</details>
+
+<details><summary>CLASS </summary>
+
+- Class in C++ is the building block that leads to Object-Oriented programming. It is a user-defined data type, which holds its own data members and member functions, which can be accessed and used by creating an instance of that class. A C++ class is like a blueprint for an object.
+	- A Class is a user-defined data type that has data members and member functions.
+	- Data members are the data variables and member functions are the functions used to manipulate these variables together, these data members and member functions define the properties and behavior of the objects in a Class.
+	- In the above example of class Car, the data member will be speed limit, mileage, etc, and member functions can be applying brakes, increasing speed, etc.
+- An Object is an instance of a Class. When a class is defined, no memory is allocated but when it is instantiated (i.e. an object is created) memory is allocated.
+### Defining Class and Declaring Objects
+
+- A class is defined in C++ using the keyword class followed by the name of the class. The body of the class is defined inside the curly brackets and terminated by a semicolon at the end.
+	![image](https://github.com/ManhPhung/Embedded_Interview_T8/assets/141265486/cb347c61-0435-4045-8385-16f8df3d43a3)
+	Example :
+```c++
+class SinhVien					// Declare a class that has name SinhVien
+{
+	Private :				// Member variables ID , Name , age class have access specifier Private
+		string ID ; 			
+		string Name ;
+		unsigned int Age ;
+		string Class ;
+	Public :				// Member Function get...(), set...() have access specifier Public
+		string ID ; 			
+		setID();
+		setName();
+		setAge();
+		setClass();
+		getID();
+		getName();
+		getAge();
+		getClass();
+}
+```
+### Declaring Objects
+- When a class is defined, only the specification for the object is defined; no memory or storage is allocated. To use the data and access functions defined in the class, you need to create objects.
+```c++
+SinhVien sv1;
+```
+- Accessing data members and member functions: The data members and member functions of the class can be accessed using the dot(‘.’) operator with the object. For example, if the name of the object is obj and you want to access the member function with the name printName() then you will have to write obj.printName().
+
+### Accessing Data Members
+- The public data members are also accessed in the same way given however the private data members are not allowed to be accessed directly by the object. Accessing a data member depends solely on the access control of that data member. There are three access modifiers: public, private, and protected.
+
+  	1. Public: All the class members declared under the public specifier will be available to everyone. The data members and member functions declared as public can be accessed by other classes and functions too. The public members of a class can be accessed from anywhere in the program using the direct member access operator (.) with the object of that class.
+	2. Private: The class members declared as private can be accessed only by the member functions inside the class. They are not allowed to be accessed directly by any object or function outside the class. Only the member functions or the friend functions are allowed to access the private data members of the class.
+	3. Protected: The protected access modifier is similar to the private access modifier in the sense that it can’t be accessed outside of its class unless with the help of a friend class. The difference is that the class members declared as Protected can be accessed by any subclass (derived class) of that class as well. 
+
+</details>
+
 	 
 
 
