@@ -38,27 +38,27 @@ int strLen(char string[])
 void upCase(char string[])
 {
     int thresHold = 0;
-    int i = 0;
+    int index = 0;
 
     char tempString[strLen(string)];
-    while (string[i] != '\0')
+    while (string[index] != '\0')
     {
-        tempString[i] = string[i];
-        i++;
+        tempString[index] = string[index];
+        index++;
     }
-    i = 0;
+    index = 0;
 
-    while(tempString[i]!='.')   i++;
-    thresHold = i;
-    i = 0;
+    while(tempString[index]!='.')   index++;
+    thresHold = index;
+    index = 0;
 
-    while(tempString[i]!='\0')
+    while(tempString[index]!='\0')
     {
-        if(i>thresHold && tempString[i]!=' ')
+        if(index>thresHold && tempString[index]!=' ')
         {
-            tempString[i] = tempString[i] -32;
+            tempString[index] = tempString[index] - 32;
         }
-        i++;
+        index++;
     }
     printf("%s\n", tempString);
 }
