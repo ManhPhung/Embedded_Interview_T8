@@ -177,6 +177,11 @@ SinhVien sv1;
 
 ## INTERVIEW QUESTION
 
+<details><summary>BASIC C </summary>
+
+</details>
+
+
 
 
 
