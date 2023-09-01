@@ -177,8 +177,34 @@ SinhVien sv1;
 
 ## INTERVIEW QUESTION
 
-<details><summary>BASIC C </summary>
+<details><summary>Hàm callbacks trong ngôn ngữ lập trình C là gì? </summary>
+	Callback function là một kỹ thuật quan trọng trong C. Hàm callback là hàm mà có tham số truyền vào là một hàm khác được gọi thông qua con trỏ trỏ tới địa chỉ của hàm được gọi.
+```c
 
+// A simple C program to demonstrate callback
+#include <stdio.h>
+ 
+void A(){
+  printf("I am function A\n");
+}
+ 
+// callback function
+void B(void (*ptr)())
+{
+    (*ptr)(); // callback to A
+}
+ 
+int main()
+{
+    void (*ptr)() = &A;
+ 
+    // calling function B and passing
+    // address of the function A as argument
+    B(ptr);
+ 
+    return 0;
+}
+ ```
 </details>
 
 
