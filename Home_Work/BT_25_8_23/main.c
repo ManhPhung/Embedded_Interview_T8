@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdint.h>
 #include <stdbool.h>
-#include <string.h>
+
 
 typedef struct{
     char *firstChar;
@@ -92,7 +92,7 @@ int main(){
     Word *word = splitString(array);
 
     // printf("%d",countRepeat(word, 0));
-    int wordCompare = 12;
+    int wordCompare = 0;
     int count = 0;
     for(int i = 0;i <16; i++)
     {
@@ -101,7 +101,9 @@ int main(){
             count++;
         }
     }
-    printf("%d",count);
+    printf("%d\n",count);
+
+
 
 }
 

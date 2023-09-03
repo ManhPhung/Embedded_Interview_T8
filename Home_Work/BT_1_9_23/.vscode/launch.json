@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Embedded Interview/Embedded_Interview_Code/Home_Work/BT_28_8_23",
-      "program": "d:/Embedded Interview/Embedded_Interview_Code/Home_Work/BT_28_8_23/build/Debug/outDebug",
+      "cwd": "d:/Embedded Interview/Embedded_Interview_Code/Home_Work/BT_1_9_23",
+      "program": "d:/Embedded Interview/Embedded_Interview_Code/Home_Work/BT_1_9_23/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
