@@ -56,6 +56,7 @@ int main() {
     }
 
     totalDays += dayIn.day; // Cộng thêm số ngày của tháng hiện tại
+    printf("Tu ngay 1/1/1 den ngay %d/%d/%d da trai qua %d ngay.\n ", dayIn.day, dayIn.month, dayIn.year, totalDays);
 
     // Tìm thứ của ngày nhập vào (0: Chủ Nhật, 1: Thứ Hai, 2: Thứ Ba, ..., 6: Thứ Bảy)
     int dayOfWeek = totalDays % 7;
