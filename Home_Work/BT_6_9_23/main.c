@@ -2,6 +2,19 @@
 #include<stdlib.h>
 #include<stdint.h>
 
+/*
+Ý tưởng ta sẽ tách xử theo từng cụm 3 chữ số hàng trăm.
+Ví dụ : 100 203 910 111 
+        ___ ___ ___ ___
+        |   |   |   |________ 111 -> Một trăm mười một          |
+        |   |   |____________ 910 -> Chín trăm mười + nghìn     |_______ Một trăm tỷ hai trăm lẻ ba triệu chín trăm mười nghìn
+        |   |________________ 203 -> Hai trăm lẻ ba + triệu     |        một trăm mười một
+        |____________________ 100 -> Một trăm + tỷ              |
+
+Một số trường hợp đặc biệt :
+- Khi input > 1000 sẽ xuất hiện trường hợp 0 trăm. Vd : 1011-> Một nghìn không trăm mười một
+- Khuyết hàng chục. Vd : 109 -> Một trăm lẻ chín
+*/
 
 const char* sCaseOne[] = {
     "Khong",
