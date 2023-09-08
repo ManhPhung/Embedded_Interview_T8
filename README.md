@@ -186,6 +186,65 @@ Output :
 2. Chain Macros: Macros inside macros are termed as chain macros. In chain macros first of all parent macro is expanded then the child macro is expanded. 
 Below is the illustration of a Chain Macro:
 
+```c
+
+// C program to illustrate macros
+#include <stdio.h>
+  
+// Macro definition
+#define FACEBOOK FOLLOWERS
+#define FOLLOWERS 1.5
+  
+// Driver Code
+int main()
+{
+    // Print the message
+    printf("You have %fK"
+           " followers on Facebook",
+           FACEBOOK);
+  
+    return 0;
+}
+
+```
+
+Output :
+	You have 1.500000K followers on Facebook
+
+3. Multi-line Macros: An object-like macro could have a multi-line. So to create a multi-line macro you have to use backslash-newline. 
+Below is the illustration of multiline macros:
+
+
+// C program to illustrate macros
+#include <stdio.h>
+ 
+// Multi-line Macro definition
+#define ELE 1, \
+            2, \
+            3
+ 
+// Driver Code
+int main()
+{
+ 
+    // Array arr[] with elements
+    // defined in macros
+    int arr[] = { ELE };
+ 
+    // Print elements
+    printf("Elements of Array are:\n");
+ 
+    for (int i = 0; i < 3; i++) {
+        printf("%d  ", arr[i]);
+    }
+    return 0;
+}
+
+Output : 
+	
+	Elements of Array are:
+	1 2 3 
+
 </details>
 
 
