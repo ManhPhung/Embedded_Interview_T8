@@ -248,6 +248,41 @@ Output :
 	Elements of Array are:
 	1 2 3 
 
+4. Function-like Macro: These macros are the same as a function call. It replaces the entire code instead of a function name. Pair of parentheses immediately after the macro name is necessary. If we put a space between the macro name and the parentheses in the macro definition, then the macro will not work. A function-like macro is only lengthened if and only if its name appears with a pair of parentheses after it. If we don’t do this, the function pointer will get the address of the real function and lead to a syntax error.
+Below is the illustration of function-like macros:
+
+```c
+// C program to illustrate macros
+#include <stdio.h>
+
+// Function-like Macro definition
+#define min(a, b) (((a) < (b)) ? (a) : (b))
+#define max(a, b) (((a) > (b)) ? (a) : (b))
+
+// Driver Code
+int main()
+{
+
+	// Given two number a and b
+	int a = 18;
+	int b = 76;
+
+	printf("Minimum value between"
+		" %d and %d is %d\n",
+		a, b, min(a, b));
+	printf("Maximum value between"
+		" %d and %d is %d\n",
+		a, b, max(a, b));
+
+	return 0;
+}
+```
+
+Output : 
+
+	Minimum value between 18 and 76 is 18
+	Maximum value between 18 and 76 is 76
+
 </details>
 
 
