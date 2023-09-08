@@ -151,6 +151,7 @@ int main()
 ```
 
 Output : 
+
 	The value of min is 1
 	The value of max is 5
 
