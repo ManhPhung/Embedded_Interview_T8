@@ -171,13 +171,17 @@ Below is the illustration of a simple macro:
 int main()
 {
     // Print the value of PI
-    printf("The value of pi"
+    printf("The value of PI"
            " is %f",
            PI);
  
     return 0;
 }
 ```
+
+Output : 
+
+	The value of PI is 3.140000
 	
 
 </details>
