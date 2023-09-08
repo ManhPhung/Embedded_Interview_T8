@@ -215,7 +215,7 @@ Output :
 3. Multi-line Macros: An object-like macro could have a multi-line. So to create a multi-line macro you have to use backslash-newline. 
 Below is the illustration of multiline macros:
 
-
+```c
 // C program to illustrate macros
 #include <stdio.h>
  
@@ -240,6 +240,7 @@ int main()
     }
     return 0;
 }
+```
 
 Output : 
 	
