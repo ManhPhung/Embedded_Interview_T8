@@ -119,6 +119,39 @@
   		00000000 00001000
 </details>
 
+<details><summary>MACRO </summary>
+	
+### What is macro?
+	A macro is a piece of code in a program that is replaced by the value of the macro. Macro is defined by #define directive. Whenever a macro name is encountered by the compiler, it replaces the name with the definition of the macro. Macros are processed during preprocessing. Macro definitions need not be terminated by a semi-colon(;).
+
+Program 1: 
+
+```c
+// C program to illustrate macros
+#include <stdio.h>
+ 
+// Macro definition
+#define MIN 1 
+#define MAX 5
+ 
+// Driver Code
+int main()
+{
+    // Print the value of macro defined
+    printf("The value of min"
+           " is %d\n",
+           MIN);
+    printf("The value of max"
+           " is %d\n",
+           MAX);
+ 
+    return 0;
+}
+```c
+ 
+ 
+</details>
+ 
 ## C++ PROGRAMING LANGUAGE
 
 <details><summary>INTRODURING </summary>
