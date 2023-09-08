@@ -125,6 +125,7 @@
 	A macro is a piece of code in a program that is replaced by the value of the macro. Macro is defined by #define directive. Whenever a macro name is encountered by the compiler, it replaces the name with the definition of the macro. Macros are processed during preprocessing. Macro definitions need not be terminated by a semi-colon(;).
 
 Program 1: 
+	In this Example, we defined two macro MIN and MAX with values 1 and 5. Whenever the MIN and MAX macros are encountered during preprocessing they are replaced with the values 1 and 5.
 
 ```c
 // C program to illustrate macros
@@ -148,6 +149,13 @@ int main()
     return 0;
 }
 ```
+
+Output : 
+	The value of min is 1
+	The value of max is 5
+
+
+
 </details>
 
 
