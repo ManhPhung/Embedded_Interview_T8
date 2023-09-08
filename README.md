@@ -244,6 +244,7 @@ int main()
 ```
 
 Output : 
+
 	Elements of Array are:
 	1 2 3 
 
