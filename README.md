@@ -284,6 +284,7 @@ Output :
 	Maximum value between 18 and 76 is 76
 
 ### Conclusion
+
 Macros are small pieces of code that can be executed with a single command. They can be used to automate tasks, simplify complex processes, and improve productivity. However, there are also some disadvantages to using macros. Here are some of the advantages and disadvantages of macros:
 
 - Advantages :
