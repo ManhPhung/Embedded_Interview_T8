@@ -398,6 +398,6 @@ int main()
 <details><summary>2. Hàm callbacks trong ngôn ngữ lập trình C là gì? </summary>
 
 ## REFERENCE
-https://www.geeksforgeeks.org/
+ Link: https://www.geeksforgeeks.org/
 
 
