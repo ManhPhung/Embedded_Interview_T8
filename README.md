@@ -182,7 +182,9 @@ int main()
 Output : 
 
 	The value of PI is 3.140000
-	
+
+2. Chain Macros: Macros inside macros are termed as chain macros. In chain macros first of all parent macro is expanded then the child macro is expanded. 
+Below is the illustration of a Chain Macro:
 
 </details>
 
