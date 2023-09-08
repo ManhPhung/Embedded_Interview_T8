@@ -147,11 +147,10 @@ int main()
  
     return 0;
 }
-```c
- 
+```
  
 </details>
- 
+
 ## C++ PROGRAMING LANGUAGE
 
 <details><summary>INTRODURING </summary>
