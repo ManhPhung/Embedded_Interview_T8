@@ -367,7 +367,19 @@ SinhVien sv1;
 
 <details>	<summary>LINKED LIST</summary>
 
-![image](https://github.com/ManhPhung/Embedded_Interview_T8/assets/141265486/1405c2b0-1778-47a8-9320-887c16e51024)
+- Single - Linked List
+
+![image](https://github.com/ManhPhung/Embedded_Interview_T8/assets/141265486/b13e641c-bf67-489d-a0ce-aab4b073f3c5)
+
+
+- Double - Linked List
+
+![image](https://github.com/ManhPhung/Embedded_Interview_T8/assets/141265486/498d314e-6dc0-4dee-9ecd-3e550f79ea79)
+
+
+Circular Linded List
+
+![image](https://github.com/ManhPhung/Embedded_Interview_T8/assets/141265486/941e8a44-6f8f-4c0a-9369-23352f4182dc)
 
 
 </details>
