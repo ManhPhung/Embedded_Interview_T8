@@ -365,12 +365,12 @@ SinhVien sv1;
 ## DATA STRUCT AND ALGORITHMS
 <details><summary>DATA STRUCT</summary>
 
-<summary><details>LINKED LIST
+<details>LINKED LIST
 
 ![image](https://github.com/ManhPhung/Embedded_Interview_T8/assets/141265486/1405c2b0-1778-47a8-9320-887c16e51024)
 
 
-</details></summary>
+</details>
 
 
 
