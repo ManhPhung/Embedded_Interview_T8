@@ -377,7 +377,7 @@ SinhVien sv1;
 ![image](https://github.com/ManhPhung/Embedded_Interview_T8/assets/141265486/498d314e-6dc0-4dee-9ecd-3e550f79ea79)
 
 
-Circular Linded List
+- Circular Linded List
 
 ![image](https://github.com/ManhPhung/Embedded_Interview_T8/assets/141265486/941e8a44-6f8f-4c0a-9369-23352f4182dc)
 
