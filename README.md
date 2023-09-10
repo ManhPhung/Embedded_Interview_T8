@@ -365,7 +365,7 @@ SinhVien sv1;
 ## DATA STRUCT AND ALGORITHMS
 <details><summary>DATA STRUCT</summary>
 
-<details><summary><summary>LINKED LIST</summary></summary>
+<details>	<summary>LINKED LIST</summary>
 
 ![image](https://github.com/ManhPhung/Embedded_Interview_T8/assets/141265486/1405c2b0-1778-47a8-9320-887c16e51024)
 
