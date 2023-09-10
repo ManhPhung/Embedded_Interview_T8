@@ -364,6 +364,7 @@ SinhVien sv1;
 
 ## DATA STRUCT AND ALGORITHMS
 <details><summary>DATA STRUCT</summary>
+
 ### Linked List
 
 </details>
