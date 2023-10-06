@@ -54,3 +54,12 @@ void orderedDish::setQuantity(unsigned int quantityPassedIn){
 unsigned int orderedDish::getQuantity(){
   return orderQuantity;
 }
+
+void table::setStatus(status currentState){
+    this->currentState = currentState;
+}
+
+std::string table::getStatus(){
+  if(table::currentState == EMTY) return "EMTY";
+  else return "OCCUPIED";
+}

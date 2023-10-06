@@ -19,6 +19,7 @@ void displayMenu(const std::list<dish>& menu) {
     std::cout << "-----------------------------\n";
 }
 
+
 int main() {
     while (true) {
         restaurant_management:
@@ -50,7 +51,7 @@ int main() {
                     {
                         switch (managerChoice) {
                         case 1:
-                            /*code*/
+                            
                             break;
 
                         case 2:

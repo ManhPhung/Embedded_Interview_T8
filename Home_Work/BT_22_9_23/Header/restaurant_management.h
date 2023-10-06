@@ -41,11 +41,18 @@ class orderedDish : public dish{
     unsigned int getQuantity();
 };
 
-struct table{
-  int ID;
-  status currentStatus;
-  std::list<orderedDish> orderList;
+class table{
+  private:
+    static int ID;
+    status currentState;
+    std::list<orderedDish> orderList;
+  public: 
+    table(status currentState, const std::list<dish>& orderList) : currentState(currentState), orderList(&orderList) {this->ID= ++ID;}
+    void setStatus(status currentState);
+    std::string getStatus();
 };
+
+int table::ID = 0;
 
 void displayMainMenu();
 void displayManagerMenu();
