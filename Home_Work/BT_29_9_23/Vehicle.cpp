@@ -171,15 +171,15 @@ int main(){
         }
     };
 
-    Car myCar("XYZ 123", 4.5, 1.9);
+    Car newCar("adasdre", 4.5, 1.9);
     std::cout <<"*************************************************" << std::endl;
-    std::cout << " The car has a license plate is : " << myCar.getLicensePlate() ;        
+    std::cout << " The car has a license plate is : " << newCar.getLicensePlate() ;        
     std::cout << " and ";
-    myCar.displayDimOfCar();
+    newCar.displayDimOfCar();
     std::cout <<"\n*************************************************" << std::endl;
 
-    Position pos;
-    pos = myCar.findParkingSlot(slots);
+    Position emtySlot;
+    emtySlot = newCar.findParkingSlot(slots);
     return 0;
 
 }
