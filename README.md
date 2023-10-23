@@ -422,6 +422,9 @@ int main()
 
 </details>
 
+## EMBEDDED
+SPI : https://www.youtube.com/watch?v=4pAX5oGbcAI&list=PLaDgBdWhqDeqtZSLwifQSvUCFK8esO6Ko&index=1
+
 ## REFERENCE
 
 https://www.geeksforgeeks.org/
